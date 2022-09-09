@@ -14,8 +14,11 @@ public class index {
   }
 
   public static void main(String[] args) {
-    Twosum l = new Twosum(new int[]{2, 7, 11, 15});
+    Twosum l = new Twosum(new int[]{ 2, 7, 11, 15 });
     
     printArray(l.twosum(9));
+
+    Twosum l2 = new Twosum(new int[]{ 3, 5, 2, -4, 8, 11 });
+    printArray(l2.twosum(7));
   }
 }
